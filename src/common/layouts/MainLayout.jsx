@@ -8,8 +8,14 @@ export default function MainLayout() {
 
         <nav className="flex flex-col gap-6 ">
           <Link to="/dashboard">Dashboard</Link>
+          <Link to="/worker-types">Worker Types</Link>
+          <Link to="/accessory-types">Accessory Types</Link>
+          <Link to="/room-types">Room Types</Link>
+          <Link to="/workers">Workers</Link>
+          <Link to="/accessories">Accessories</Link>
           <Link to="/rooms">Rooms</Link>
           <Link to="/bookings">Bookings</Link>
+          <Link to="/payments">Payments</Link>
         </nav>
       </aside>
 
